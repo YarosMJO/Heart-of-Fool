@@ -13,6 +13,20 @@ public class User {
             + "Heart Of Fool" + File.separator + "Saved settings";
     final Properties props = new Properties();
 
+    public void checkDefSettings(){
+        File file = new File(settingsFilename);
+        if (!file.exists()) {
+            props.setProperty("hero_type","Drago");
+            props.setProperty("hero_health", "5");
+            props.setProperty("hero_position_x", "100");
+            props.setProperty("hero_position_y", "200");
+            props.setProperty("game_state", "Level1State");
+            props.setProperty("tilemap_position_x", "0.0");
+            props.setProperty("tilemap_position_y", "0.0");
+
+            save();
+        }
+    }
     public void save() {
 
         final String fileName = System.getenv("APPDATA")
@@ -30,6 +44,7 @@ public class User {
     }
 
     public void load() {
+        checkDefSettings();
         try (FileInputStream input = new FileInputStream(settingsFilename)) {
             props.load(input);
         } catch (Exception ignore) {

@@ -46,10 +46,11 @@ public class Level2State extends GameState {
 
     @Override
     public void init() {
-        u.load();
-        if (!u.props.getProperty("game_state").equals(getState())) {
-            MenuState.allowDownload = false;
-        }
+        u.save();
+//        u.load();
+//        if (!u.props.getProperty("game_state").equals(getState())) {
+//            MenuState.allowDownload = false;
+//        }
         if (MenuState.allowDownload == false) {
             tileMap = new TileMap(30);
             tileMap.loadTiles("/Tilesets/dark1.gif");

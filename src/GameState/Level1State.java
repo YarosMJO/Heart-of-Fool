@@ -48,10 +48,11 @@ public class Level1State extends GameState {
 
     @Override
     public void init() {
-        u.load();
-        if (!u.props.getProperty("game_state").equals(getState())) {
-            MenuState.allowDownload = false;
-        }
+//        u.load();
+        u.save(); //at first occurrence in game
+//        if (!u.props.getProperty("game_state").equals(getState())) {
+//            MenuState.allowDownload = false;
+//        }
         if (MenuState.allowDownload == false) {
             tileMap = new TileMap(30);
             tileMap.loadTiles("/Tilesets/testtileset.gif");
@@ -447,9 +448,9 @@ public class Level1State extends GameState {
         eventStart = true;
         eventStart();
 
-        title = new Title(hageonText.getSubimage(0, 0, 178, 20));//
+        title = new Title(hageonText.getSubimage(0, 0, 178, 20));
         title.sety(60);
-        subtitle = new Title(hageonText.getSubimage(0, 33, 91, 13));//
+        subtitle = new Title(hageonText.getSubimage(0, 33, 91, 13));
         subtitle.sety(85);
 
     }
