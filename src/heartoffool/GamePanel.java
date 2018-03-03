@@ -67,12 +67,11 @@ public class GamePanel extends JPanel
 
     @Override
     public void run() {
-
-        init();
-
         long start;
         long elapsed;
         long wait;
+        init();
+
         while (running) {
             start = System.nanoTime();
 
@@ -85,12 +84,9 @@ public class GamePanel extends JPanel
             elapsed = System.nanoTime() - start;
 
             wait = targetTime - elapsed / 1000000;
-            if (wait < 0) {
-                wait = 5;
-            }
+            if (wait < 0) wait = 5;
 
             try {
-
                 Thread.sleep(wait);
             } catch (Exception e) {
                 e.printStackTrace();

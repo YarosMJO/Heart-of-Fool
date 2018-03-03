@@ -23,7 +23,6 @@ public class User {
             props.setProperty("game_state", "Level1State");
             props.setProperty("tilemap_position_x", "0.0");
             props.setProperty("tilemap_position_y", "0.0");
-
             save();
         }
     }

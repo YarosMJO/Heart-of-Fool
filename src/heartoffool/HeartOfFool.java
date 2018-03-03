@@ -31,8 +31,8 @@ public class HeartOfFool {
                             JOptionPane.QUESTION_MESSAGE,
                             null, buttons, buttons[0]);
                     if (ans == 0) {
-                        
-                        window.dispose();
+
+                        System.exit(0);
                     }
 
                 }
