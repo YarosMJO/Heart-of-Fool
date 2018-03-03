@@ -127,7 +127,6 @@ public class MenuState extends GameState {
         }
         if (currentChoice == 1) {        
             if (map == null) {
-                
                     map = new MAP(this);    
             }
             map = null;

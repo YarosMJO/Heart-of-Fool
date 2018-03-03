@@ -44,9 +44,9 @@ public class MyPanel extends JFrame {
         p1.setBackground(Color.BLUE);
         button = new JButton("CONFIRM AND EXIT");
         button.addKeyListener(butlist);
-        HeroLabel1 = new JLabel(new ImageIcon("src/Backgrounds/AsianFon.png"));
-        HeroLabel2 = new JLabel(new ImageIcon("src/Backgrounds/DragoFon.png"));
-        HeroLabel3 = new JLabel(new ImageIcon("src/Backgrounds/LizardFon.png"));
+        HeroLabel1 = new JLabel( new ImageIcon(getClass().getResource("/Backgrounds/AsianFon.png")));
+        HeroLabel2 = new JLabel(new ImageIcon(getClass().getResource("/Backgrounds/DragoFon.png")));
+        HeroLabel3 = new JLabel(new ImageIcon(getClass().getResource("/Backgrounds/LizardFon.png")));
 
         HeroLabel1.addMouseListener(HeroListener);
         HeroLabel2.addMouseListener(HeroListener);
@@ -57,11 +57,11 @@ public class MyPanel extends JFrame {
         p1.add(HeroLabel2);
         p1.add(HeroLabel3);
 
+
         add(p1, BorderLayout.NORTH);
         add(button);
 
-        Image im = Toolkit.getDefaultToolkit().getImage("icon.png");
-        setIconImage(im);
+//      setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("icon.png")));//missed
         setResizable(false);
         setLocationRelativeTo(null);
         setVisible(true);
@@ -88,20 +88,20 @@ public class MyPanel extends JFrame {
             }
             if (e.getSource() == HeroLabel1) {
                 CheckHero();
-                HeroLabel1.setIcon(new ImageIcon("src/Backgrounds/AsianFonRed.png"));
+                HeroLabel1.setIcon(new ImageIcon(getClass().getResource("/Backgrounds/AsianFonRed.png")));
                 Hero1Select = true;
                 doz = 1;
             }
             if (e.getSource() == HeroLabel2) {
                 CheckHero();
-                HeroLabel2.setIcon(new ImageIcon("src/Backgrounds/DragoFonRed.png"));
+                HeroLabel2.setIcon(new ImageIcon(getClass().getResource("/Backgrounds/DragoFonRed.png")));
                 Hero2Select = true;
                 doz = 2;
             }
 
             if (e.getSource() == HeroLabel3) {
                 CheckHero();
-                HeroLabel3.setIcon(new ImageIcon("src/Backgrounds/LizardFonRed.png"));
+                HeroLabel3.setIcon(new ImageIcon(getClass().getResource("/Backgrounds/LizardFonRed.png")));
                 Hero3Select = true;
                 doz = 3;
             }
@@ -111,15 +111,15 @@ public class MyPanel extends JFrame {
 
     void CheckHero() {
         if (Hero1Select) {
-            HeroLabel1.setIcon(new ImageIcon("src/Backgrounds/AsianFon.png"));
+            HeroLabel1.setIcon(new ImageIcon(getClass().getResource("/Backgrounds/AsianFon.png")));
             Hero1Select = false;
         }
         if (Hero2Select) {
-            HeroLabel2.setIcon(new ImageIcon("src/Backgrounds/DragoFon.png"));
+            HeroLabel2.setIcon(new ImageIcon(getClass().getResource("/Backgrounds/DragoFon.png")));
             Hero2Select = false;
         }
         if (Hero3Select) {
-            HeroLabel3.setIcon(new ImageIcon("src/Backgrounds/LizardFon.png"));
+            HeroLabel3.setIcon(new ImageIcon(getClass().getResource("/Backgrounds/LizardFon.png")));
             Hero3Select = false;
         }
     }
