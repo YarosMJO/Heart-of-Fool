@@ -5,11 +5,10 @@ import Entity.Hero;
 
 public abstract class GameState {
 
+    protected static volatile boolean canResume;
     protected GameStateManager gsm;
     protected AudioPlayer bgMusic;
     protected Hero hero;
-   
-    protected static volatile boolean canResume;
 
     public abstract void init();
 

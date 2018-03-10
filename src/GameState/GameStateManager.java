@@ -6,16 +6,14 @@ import javax.sound.sampled.Clip;
 
 public class GameStateManager {
 
-    private Clip clip;
-    private GameState[] gameStates;
-    private int currentState;
-
     public static final int NUMGAMESTATES = 11;
     public static final int MENUSTATE = 0;
     public static final int LEVEL1STATE = 1;
     public static final int LEVEL2STATE = 2;
+    private Clip clip;
+    private GameState[] gameStates;
+    private int currentState;
     //  public static final int MAP = 3;
-
     private PauseState pauseState;
     private boolean paused = false;
 
@@ -73,40 +71,35 @@ public class GameStateManager {
         }
     }
 
-    public void setPaused(boolean b) {
-        paused = b;
-    }
-
     public boolean getPaused() {
         return paused;
     }
 
-    public void keyPressed(int k) {
-        try {
-            if (paused) {
-                pauseState.keyPressed(k);
-                return;
-            }
-            if (gameStates[currentState] != null) {
-                gameStates[currentState].keyPressed(k);
-            }
-        } catch (Exception e) {
+    public void setPaused(boolean b) {
+        paused = b;
+    }
 
+    public void keyPressed(int k) {
+        if (paused) {
+            pauseState.keyPressed(k);
+            return;
         }
+        if (gameStates[currentState] != null) {
+            gameStates[currentState].keyPressed(k);
+        }
+
     }
 
     public void keyReleased(int k) {
-        try {
-            if (paused) {
-                pauseState.keyReleased(k);
-                return;
-            }
-            if (gameStates[currentState] != null) {
-                gameStates[currentState].keyReleased(k);
-            }
-        } catch (Exception e) {
 
+        if (paused) {
+            pauseState.keyReleased(k);
+            return;
         }
+        if (gameStates[currentState] != null) {
+            gameStates[currentState].keyReleased(k);
+        }
+
 
     }
 

@@ -11,35 +11,6 @@ import java.util.HashMap;
 
 public class Drago extends MapObject implements Hero {
 
-    // player stuff
-    private int health;
-    private final int maxHealth;
-    private int fire;
-    private final int maxFire;
-    private boolean dead;
-    private boolean flinching;
-    private long flinchTimer;
-
-    // fireball
-    private boolean firing;
-    private final int fireCost;
-    private final int fireBallDamage;
-    private ArrayList<FireBall> fireBalls;
-
-    // scratch
-    private boolean scratching;
-    private int scratchDamage;
-    private int scratchRange;
-
-    // gliding
-    private boolean gliding;
-
-    // animations
-    private ArrayList<BufferedImage[]> sprites;
-    private final int[] numFrames = {
-        2, 8, 1, 2, 4, 2, 5
-    };
-
     // animation actions
     private static final int IDLE = 0;
     private static final int WALKING = 1;
@@ -48,7 +19,30 @@ public class Drago extends MapObject implements Hero {
     private static final int GLIDING = 4;
     private static final int FIREBALL = 5;
     private static final int SCRATCHING = 6;
-
+    private final int maxHealth;
+    private final int maxFire;
+    private final int fireCost;
+    private final int fireBallDamage;
+    private final int[] numFrames = {
+            2, 8, 1, 2, 4, 2, 5
+    };
+    // player stuff
+    private int health;
+    private int fire;
+    private boolean dead;
+    private boolean flinching;
+    private long flinchTimer;
+    // fireball
+    private boolean firing;
+    private ArrayList<FireBall> fireBalls;
+    // scratch
+    private boolean scratching;
+    private int scratchDamage;
+    private int scratchRange;
+    // gliding
+    private boolean gliding;
+    // animations
+    private ArrayList<BufferedImage[]> sprites;
     private HashMap<String, AudioPlayer> sfx;
 
     public Drago(TileMap tm) {
@@ -136,6 +130,11 @@ public class Drago extends MapObject implements Hero {
     @Override
     public int getHealth() {
         return health;
+    }
+
+    @Override
+    public void setHealth(int health) {
+        this.health = health;
     }
 
     @Override
@@ -275,7 +274,7 @@ public class Drago extends MapObject implements Hero {
 
         // jumping
         if (jumping && !falling) {
-           // sfx.get("jump").play();
+            // sfx.get("jump").play();
             dy = jumpStart;
             falling = true;
         }
@@ -358,7 +357,7 @@ public class Drago extends MapObject implements Hero {
         // set animation
         if (scratching) {
             if (currentAction != SCRATCHING) {
-                 sfx.get("scratch").play();
+                sfx.get("scratch").play();
                 currentAction = SCRATCHING;
                 animation.setFrames(sprites.get(SCRATCHING));
                 animation.setDelay(50);
@@ -454,11 +453,6 @@ public class Drago extends MapObject implements Hero {
 
         left = right = up = down = flinching = jumping = scratching = false;
 
-    }
-
-    @Override
-    public void setHealth(int health) {
-        this.health = health;
     }
 
 }

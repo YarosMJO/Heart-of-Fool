@@ -14,7 +14,8 @@ public class Enemy extends MapObject {
     public Enemy(TileMap tm) {
         super(tm);
     }
-	public boolean isDead() {
+
+    public boolean isDead() {
         return dead;
     }
 

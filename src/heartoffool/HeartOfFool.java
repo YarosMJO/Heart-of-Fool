@@ -23,7 +23,7 @@ public class HeartOfFool {
                 public void windowClosing(WindowEvent we) {
                     Object[] buttons = {"Yes", "No"};
                     int ans = JOptionPane.showOptionDialog(null,
-                            
+
                             "Really quit?",
                             "Leaving the game...",
                             JOptionPane.YES_NO_OPTION,

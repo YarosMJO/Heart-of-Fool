@@ -16,7 +16,7 @@ public class Over {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
+
 
     }
 
@@ -26,6 +26,6 @@ public class Over {
     }
 
     public void draw(Graphics2D g) {
-        g.drawImage(image, (int) 100, (int) 100, null);
+        g.drawImage(image, 100, 100, null);
     }
 }

@@ -148,24 +148,24 @@ public class Level2State extends GameState {
 
         Evil e;
         Point[] points = new Point[]{
-            new Point(824, 180),
-            new Point(762, 180),
-            new Point(881, 180),
-            new Point(944, 387),
-            new Point(1007, 387),
-            new Point(1106, 387),
-            new Point(1318, 276),
-            new Point(1427, 276),
-            new Point(2700, 180),
-            new Point(2668, 186),
-            new Point(2714, 186),
-            new Point(3450, 160),
-            new Point(3400, 160),
-            new Point(3500, 160),
-            new Point(3920, 331),
-            new Point(3954, 331),
-            new Point(3855, 331),
-            new Point(3883, 331),};
+                new Point(824, 180),
+                new Point(762, 180),
+                new Point(881, 180),
+                new Point(944, 387),
+                new Point(1007, 387),
+                new Point(1106, 387),
+                new Point(1318, 276),
+                new Point(1427, 276),
+                new Point(2700, 180),
+                new Point(2668, 186),
+                new Point(2714, 186),
+                new Point(3450, 160),
+                new Point(3400, 160),
+                new Point(3500, 160),
+                new Point(3920, 331),
+                new Point(3954, 331),
+                new Point(3855, 331),
+                new Point(3883, 331),};
         for (int i = 0; i < points.length; i++) {
             e = new Evil(tileMap);
             e.setPosition(points[i].x, points[i].y);
@@ -335,20 +335,12 @@ public class Level2State extends GameState {
             gsm.setPaused(true);
             saveProp();
 
-            try {
-                bgMusic.pause();
-            } catch (InterruptedException ex) {
-                ex.printStackTrace();
-            }
+            bgMusic.pause();
 
         }
 
-        if (k == KeyEvent.VK_CONTROL) {
-            save = true;
-        }
-        if (k == KeyEvent.VK_C && save == true) {
-            save = false;
-        }
+        if (k == KeyEvent.VK_CONTROL) save = true;
+        if (k == KeyEvent.VK_C && save == true) save = false;
 
     }
 
@@ -397,7 +389,6 @@ public class Level2State extends GameState {
 
         if (eventCount == 30) {
             title.begin();
-
         }
         if (eventCount == 60) {
             eventStart = false;

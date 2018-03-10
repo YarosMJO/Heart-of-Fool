@@ -11,36 +11,31 @@ import java.io.InputStreamReader;
 
 public class TileMap {
 
+    private final int tileSize;//розмір плитки
+    private final int numRowsToDraw;//номер рядка для промальвоки
+    private final int numColsToDraw;//номер стовпця для промальовки
     // position
     private double x;
     private double y;
-
     // bounds
     private int xmin;
     private int ymin;
     private int xmax;
     private int ymax;
-
     private double tween;
-
     // map
     private int[][] map;
-    private final int tileSize;//розмір плитки
     private int numRows;
     private int numCols;
     private int width;
     private int height;
-
     // tileset
     private BufferedImage tileset;
     private int numTilesAcross;//кількість плиток
     private Tile[][] tiles;
-
     // drawing
     private int rowOffset;//зміщення рядка
     private int colOffset;//зміщення колонки
-    private final int numRowsToDraw;//номер рядка для промальвоки
-    private final int numColsToDraw;//номер стовпця для промальовки
 
     public TileMap(int tileSize) {
         this.tileSize = tileSize;
@@ -106,7 +101,7 @@ public class TileMap {
                 for (int col = 0; col < numCols; col++) {
                     map[row][col] = Integer.parseInt(tokens[col]);//записуємо у масив потрібні зєднані частини
                 }
-                                //хххххххххххх-row[0][x](107)
+                //хххххххххххх-row[0][x](107)
                 //yyyyyyyyyyyy -row[1][x](107)
                 //....
             }
@@ -158,7 +153,7 @@ public class TileMap {
     public void setPosition(double x, double y) {
         this.x += (x - this.x) * tween;
         this.y += (y - this.y) * tween;
-       
+
 
         fixBounds();
 
@@ -184,16 +179,16 @@ public class TileMap {
     public void draw(Graphics2D g) {
 
         for (int row = rowOffset;
-                row < rowOffset + numRowsToDraw;
-                row++) {
+             row < rowOffset + numRowsToDraw;
+             row++) {
 
             if (row >= numRows) {
                 break;
             }
 
             for (int col = colOffset;
-                    col < colOffset + numColsToDraw;
-                    col++) {
+                 col < colOffset + numColsToDraw;
+                 col++) {
 
                 if (col >= numCols) {
                     break;

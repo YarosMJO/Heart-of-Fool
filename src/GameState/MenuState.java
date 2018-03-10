@@ -11,28 +11,22 @@ import java.io.FileNotFoundException;
 
 public class MenuState extends GameState {
 
-    private Background bg;
-
-    private int currentChoice = 0;
-    private String[] options = {
-        "   Continue ",
-        "     Levels  ",
-        "Select Hero ",
-        "New  game ",
-        "       Quit   "
-    };
-
-    private Color titleColor;
-    private Font titleFont;
-
-    private Font font;
-
-    private MyPanel panel;
-    private MAP map;
-
-
     static boolean allowDownload = false;
     private static boolean drawContinueGray = false;
+    private Background bg;
+    private int currentChoice = 0;
+    private String[] options = {
+            "   Continue ",
+            "     Levels  ",
+            "Select Hero ",
+            "New  game ",
+            "       Quit   "
+    };
+    private Color titleColor;
+    private Font titleFont;
+    private Font font;
+    private MyPanel panel;
+    private MAP map;
     private User u = new User();
 
     public MenuState(GameStateManager gsm) {
@@ -126,9 +120,9 @@ public class MenuState extends GameState {
             }
 
         }
-        if (currentChoice == 1) {        
+        if (currentChoice == 1) {
             if (map == null) {
-                    map = new MAP(this);    
+                map = new MAP(this);
             }
             map = null;
         }
@@ -142,7 +136,7 @@ public class MenuState extends GameState {
             Object[] buttons = {"Yes", "No"};
             int p = JOptionPane.showOptionDialog(null,
                     " Are you sure? All current achievement will be lost.\n"
-                    + " If you dont wonted it, click NO to cancel",
+                            + " If you dont wonted it, click NO to cancel",
                     " Start new game ",
                     JOptionPane.YES_NO_OPTION,
                     JOptionPane.QUESTION_MESSAGE,

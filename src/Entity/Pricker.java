@@ -9,39 +9,34 @@ import java.util.ArrayList;
 
 public class Pricker extends MapObject implements Hero {
 
-    // player stuff
-    private int health;
-    private final int maxHealth;
-    private int fire;
-    private final int maxFire;
-    private boolean dead;
-    private boolean flinching;
-    private long flinchTimer;
-
-    // fireball
-    private boolean firing;
-    private final int fireCost;
-    private final int fireBallDamage;
-    private ArrayList<IceBall> iceBalls;
-
-    // gliding
-    private boolean gliding;
-
-    // animations
-    private ArrayList<BufferedImage[]> sprites;
-    private final int[] numFrames = {
-        1, 7, 4, 8, 4, 3, 5
-    };
-
     // animation actions
     private static final int IDLE = 0;
     private static final int WALKING = 1;
     private static final int JUMPING = 2;
     private static final int FALLING = 3;
-  //  private static final int GLIDING = 4;
+    //  private static final int GLIDING = 4;
     private static final int FIREBALL = 5;
     private static final int SCRATCHING = 6;
-    
+    private final int maxHealth;
+    private final int maxFire;
+    private final int fireCost;
+    private final int fireBallDamage;
+    private final int[] numFrames = {
+            1, 7, 4, 8, 4, 3, 5
+    };
+    // player stuff
+    private int health;
+    private int fire;
+    private boolean dead;
+    private boolean flinching;
+    private long flinchTimer;
+    // fireball
+    private boolean firing;
+    private ArrayList<IceBall> iceBalls;
+    // gliding
+    private boolean gliding;
+    // animations
+    private ArrayList<BufferedImage[]> sprites;
     private boolean alreadyDoubleJump;
     private boolean doubleJump;
     private double doubleJumpStart;
@@ -71,7 +66,7 @@ public class Pricker extends MapObject implements Hero {
         fireCost = 200;
         fireBallDamage = 10;
         iceBalls = new ArrayList<IceBall>();
-        
+
         doubleJumpStart = -4.3;
 
         // load sprites
@@ -98,8 +93,8 @@ public class Pricker extends MapObject implements Hero {
                                 width,
                                 height
                         );
-                   } 
-                        //else {
+                    }
+                    //else {
 //
 //                        bi[j] = spritesheet.getSubimage(
 //                                j * width * 2,
@@ -129,6 +124,11 @@ public class Pricker extends MapObject implements Hero {
     @Override
     public int getHealth() {
         return health;
+    }
+
+    @Override
+    public void setHealth(int health) {
+        this.health = health;
     }
 
     @Override
@@ -169,14 +169,14 @@ public class Pricker extends MapObject implements Hero {
     public void setGliding(boolean b) {
         gliding = b;
     }
-    
+
     @Override
     public void setJumping(boolean b) {
-		if(b && !jumping && falling && !alreadyDoubleJump) {
-			doubleJump = true;
-		}
-		jumping = b;
-	}
+        if (b && !jumping && falling && !alreadyDoubleJump) {
+            doubleJump = true;
+        }
+        jumping = b;
+    }
 
     @Override
     public void checkAttack(ArrayList<Enemy> enemies) {
@@ -341,7 +341,7 @@ public class Pricker extends MapObject implements Hero {
             }
         }
 
-        // set animation     
+        // set animation
         if (firing) {
             if (currentAction != FIREBALL) {
                 currentAction = FIREBALL;
@@ -357,7 +357,7 @@ public class Pricker extends MapObject implements Hero {
 //                    animation.setDelay(120);
 //                    width = 30;
 //                }
-//            } else 
+//            } else
             if (currentAction != FALLING) {
                 currentAction = FALLING;
                 animation.setFrames(sprites.get(FALLING));
@@ -434,11 +434,6 @@ public class Pricker extends MapObject implements Hero {
 
         left = right = up = down = flinching = jumping = false;
 
-    }
-
-    @Override
-    public void setHealth(int health) {
-        this.health = health;
     }
 
 }

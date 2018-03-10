@@ -13,6 +13,36 @@ public class MAP extends JFrame {
     public int GPwidth = GamePanel.PWIDTH + GamePanel.PWIDTH / 2;
     public int GPheight = GamePanel.PHEIGHT + GamePanel.PHEIGHT / 2;
     public MenuState MS;
+    KeyListener butlist = new KeyAdapter() {
+
+        @Override
+        public void keyTyped(KeyEvent e) {
+            char key = e.getKeyChar();
+            if (key == KeyEvent.VK_ENTER || key == KeyEvent.VK_ESCAPE) {
+                dispose();
+            }
+        }
+    };
+    MouseListener HeroListener = new MouseAdapter() {
+        @Override
+        public void mouseClicked(MouseEvent e) {
+            if (e.getSource() == L1) {
+                MenuState.allowDownload = false;
+                MS.gsm.setState(1);
+                dispose();
+
+            }
+            if (e.getSource() == L2) {
+                MenuState.allowDownload = false;
+                MS.gsm.setState(2);
+                dispose();
+            }
+            if (e.getSource() == L3) {
+                MS.gsm.setState(0);
+                dispose();
+            }
+        }
+    };
 
     public MAP(MenuState MS) {
 
@@ -50,36 +80,4 @@ public class MAP extends JFrame {
         setVisible(true);
 
     }
-
-    KeyListener butlist = new KeyAdapter() {
-
-        @Override
-        public void keyTyped(KeyEvent e) {
-            char key = e.getKeyChar();
-            if (key == KeyEvent.VK_ENTER || key == KeyEvent.VK_ESCAPE) {
-                dispose();
-            }
-        }
-    };
-
-    MouseListener HeroListener = new MouseAdapter() {
-        @Override
-        public void mouseClicked(MouseEvent e) {
-            if (e.getSource() == L1) {
-                MenuState.allowDownload=false;
-                MS.gsm.setState(1);
-                dispose();
-
-            }
-            if (e.getSource() == L2) {
-                MenuState.allowDownload=false;
-                MS.gsm.setState(2);
-                dispose();
-            }
-            if (e.getSource() == L3) {
-                MS.gsm.setState(0);
-                dispose();
-            }
-        }
-    };
 }

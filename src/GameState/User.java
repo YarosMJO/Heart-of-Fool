@@ -13,10 +13,10 @@ public class User {
             + "Heart Of Fool" + File.separator + "Saved settings";
     final Properties props = new Properties();
 
-    public void checkDefSettings(){
+    public void checkDefSettings() {
         File file = new File(settingsFilename);
         if (!file.exists()) {
-            props.setProperty("hero_type","Drago");
+            props.setProperty("hero_type", "Drago");
             props.setProperty("hero_health", "5");
             props.setProperty("hero_position_x", "100");
             props.setProperty("hero_position_y", "200");
@@ -26,6 +26,7 @@ public class User {
             save();
         }
     }
+
     public void save() {
 
         final String fileName = System.getenv("APPDATA")

@@ -1,5 +1,3 @@
-
-
 package Audio;
 
 import javax.sound.sampled.AudioFormat;
@@ -10,9 +8,10 @@ import javax.sound.sampled.Clip;
 public class AudioPlayer {
     private Clip clip;
     private int amountOfFrames;
-    public AudioPlayer(String s){
-        try{
- 
+
+    public AudioPlayer(String s) {
+        try {
+
             AudioInputStream ais = AudioSystem.getAudioInputStream(getClass().getResourceAsStream(s));
             AudioFormat baseFormat = ais.getFormat();
             AudioFormat decodeFormat = new AudioFormat(
@@ -20,48 +19,55 @@ public class AudioPlayer {
                     baseFormat.getSampleRate(),
                     16,
                     baseFormat.getChannels(),
-                    baseFormat.getChannels()*2,
+                    baseFormat.getChannels() * 2,
                     baseFormat.getSampleRate(),
                     false
             );
             AudioInputStream dais = AudioSystem.getAudioInputStream(
                     decodeFormat
-                    ,ais);
-            clip=AudioSystem.getClip();
+                    , ais);
+            clip = AudioSystem.getClip();
             clip.open(dais);
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-    public void play(){
-        if(clip==null) return;
+
+    public void play() {
+        if (clip == null) return;
         stop();
         clip.setFramePosition(0);
         clip.start();
-        
+
     }
-    public void pause() throws InterruptedException{
+
+    public void pause() {
         setAmount(clip.getFramePosition());
         stop();
-      
+
     }
-    public void resume(){ 
+
+    public void resume() {
         clip.setFramePosition(amountOfFrames);
         clip.start();
-        
+
     }
-    public void stop(){
-        if(clip.isRunning())clip.stop();
+
+    public void stop() {
+        if (clip.isRunning()) clip.stop();
     }
-     public void close(){
-       clip.stop();
-       clip.close();
+
+    public void close() {
+        clip.stop();
+        clip.close();
     }
-     public int getAmount(){
-         return amountOfFrames;
-     }
-     public void setAmount(int amountOfFrames){
-         this.amountOfFrames=amountOfFrames;
-     }
-    
+
+    public int getAmount() {
+        return amountOfFrames;
+    }
+
+    public void setAmount(int amountOfFrames) {
+        this.amountOfFrames = amountOfFrames;
+    }
+
 }

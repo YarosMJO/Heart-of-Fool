@@ -153,11 +153,11 @@ public class Level1State extends GameState {
 
         Slugger s;
         Point[] points = new Point[]{
-            new Point(200, 100),
-            new Point(860, 200),
-            new Point(1525, 200),
-            new Point(1680, 200),
-            new Point(1800, 200)
+                new Point(200, 100),
+                new Point(860, 200),
+                new Point(1525, 200),
+                new Point(1680, 200),
+                new Point(1800, 200)
         };
         for (int i = 0; i < points.length; i++) {
             s = new Slugger(tileMap);
@@ -324,11 +324,8 @@ public class Level1State extends GameState {
             gsm.setPaused(true);
             saveProp();
 
-            try {
-                bgMusic.pause();
-            } catch (InterruptedException ex) {
-                ex.printStackTrace();
-            }
+            bgMusic.pause();
+
 
         }
 

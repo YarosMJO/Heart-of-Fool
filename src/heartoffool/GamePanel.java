@@ -16,13 +16,11 @@ public class GamePanel extends JPanel
     public static final int PWIDTH = 320;
     public static final int PHEIGHT = 240;
     public static final int SCALE = 2;
-
-    // game thread
-    private Thread thread;
     public static boolean running;
     private final int FPS = 60;
     private final long targetTime = 1000 / FPS;//16.7;
-
+    // game thread
+    private Thread thread;
     // image
     private BufferedImage image;
     private Graphics2D g;

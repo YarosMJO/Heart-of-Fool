@@ -9,32 +9,6 @@ import java.util.ArrayList;
 
 public class Longway extends MapObject implements Hero {
 
-    // player stuff
-    private int health;
-    private final int maxHealth;
-    private int fire;
-    private final int maxFire = 0;
-    private boolean dead;
-    private boolean flinching;
-    private long flinchTimer;
-
-    // iceball
-    private boolean firing;
-
-    // scratch
-    private boolean scratching;
-    private int scratchDamage;
-    private int scratchRange;
-
-    // gliding
-    private boolean gliding;
-
-    // animations
-    private ArrayList<BufferedImage[]> sprites;
-    private final int[] numFrames = {
-        2, 7, 1, 1, 2, 23, 14
-    };
-
     // animation actions
     private static final int IDLE = 0;
     private static final int WALKING = 1;
@@ -43,6 +17,27 @@ public class Longway extends MapObject implements Hero {
     private static final int GLIDING = 4;
     private static final int ICEBALL = 5;
     private static final int SCRATCHING = 6;
+    private final int maxHealth;
+    private final int maxFire = 0;
+    private final int[] numFrames = {
+            2, 7, 1, 1, 2, 23, 14
+    };
+    // player stuff
+    private int health;
+    private int fire;
+    private boolean dead;
+    private boolean flinching;
+    private long flinchTimer;
+    // iceball
+    private boolean firing;
+    // scratch
+    private boolean scratching;
+    private int scratchDamage;
+    private int scratchRange;
+    // gliding
+    private boolean gliding;
+    // animations
+    private ArrayList<BufferedImage[]> sprites;
 
     public Longway(TileMap tm) {
 
@@ -111,6 +106,11 @@ public class Longway extends MapObject implements Hero {
     @Override
     public int getHealth() {
         return health;
+    }
+
+    @Override
+    public void setHealth(int health) {
+        this.health = health;
     }
 
     @Override
@@ -190,20 +190,20 @@ public class Longway extends MapObject implements Hero {
 
     @Override
     public void hit(int damage) {
-        if(currentAction!=ICEBALL){
-        if (flinching) {
-            return;
-        }
-        stop(); 
-        health -= damage;
-        if (health < 0) {
-            health = 0;
-        }
-        if (health == 0) {
-            dead = true;
-        }
-        flinching = true;
-        flinchTimer = System.nanoTime();
+        if (currentAction != ICEBALL) {
+            if (flinching) {
+                return;
+            }
+            stop();
+            health -= damage;
+            if (health < 0) {
+                health = 0;
+            }
+            if (health == 0) {
+                dead = true;
+            }
+            flinching = true;
+            flinchTimer = System.nanoTime();
         }
 
     }
@@ -239,7 +239,7 @@ public class Longway extends MapObject implements Hero {
         // cannot move while attacking, except in air
 //        if ((currentAction == SCRATCHING || currentAction == ICEBALL)
 //                && !(jumping || falling)) {
-//            dx = 0;            
+//            dx = 0;
 //        }
         // jumping
         if (jumping && !falling) {
@@ -393,11 +393,6 @@ public class Longway extends MapObject implements Hero {
 
         left = right = up = down = flinching = jumping = scratching = false;
 
-    }
-
-    @Override
-    public void setHealth(int health) {
-        this.health = health;
     }
 
 }

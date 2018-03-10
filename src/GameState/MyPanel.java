@@ -20,41 +20,6 @@ public class MyPanel extends JFrame {
 
     public int GPwidth = GamePanel.PWIDTH * 2 + GamePanel.PWIDTH / 2;
     public int GPheight = GamePanel.PHEIGHT * 2 + GamePanel.PHEIGHT / 2;
-
-    public MyPanel() {
-        super("Select Hero");
-        setSize(GPwidth, GPheight);
-        setLayout(new BorderLayout());
-        
-        p1 = new JPanel(new GridLayout());
-        p1.setPreferredSize(new Dimension(GPwidth + 10, GPheight - 110));
-        p1.setBackground(Color.BLUE);
-        button = new JButton("CONFIRM AND EXIT");
-        button.addKeyListener(butlist);
-        HeroLabel1 = new JLabel( new ImageIcon(getClass().getResource("/Backgrounds/AsianFon.png")));
-        HeroLabel2 = new JLabel(new ImageIcon(getClass().getResource("/Backgrounds/DragoFon.png")));
-        HeroLabel3 = new JLabel(new ImageIcon(getClass().getResource("/Backgrounds/LizardFon.png")));
-
-        HeroLabel1.addMouseListener(HeroListener);
-        HeroLabel2.addMouseListener(HeroListener);
-        HeroLabel3.addMouseListener(HeroListener);
-        button.addMouseListener(HeroListener);
-
-        p1.add(HeroLabel1);
-        p1.add(HeroLabel2);
-        p1.add(HeroLabel3);
-
-
-        add(p1, BorderLayout.NORTH);
-        add(button);
-
-//      setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("icon.png")));//missed
-        setResizable(false);
-        setLocationRelativeTo(null);
-        setVisible(true);
-
-    }
-
     KeyListener butlist = new KeyAdapter() {
 
         @Override
@@ -65,7 +30,6 @@ public class MyPanel extends JFrame {
             }
         }
     };
-
     MouseListener HeroListener = new MouseAdapter() {
 
         @Override
@@ -96,6 +60,44 @@ public class MyPanel extends JFrame {
 
     };
 
+    public MyPanel() {
+        super("Select Hero");
+        setSize(GPwidth, GPheight);
+        setLayout(new BorderLayout());
+
+        p1 = new JPanel(new GridLayout());
+        p1.setPreferredSize(new Dimension(GPwidth + 10, GPheight - 110));
+        p1.setBackground(Color.BLUE);
+        button = new JButton("CONFIRM AND EXIT");
+        button.addKeyListener(butlist);
+        HeroLabel1 = new JLabel(new ImageIcon(getClass().getResource("/Backgrounds/AsianFon.png")));
+        HeroLabel2 = new JLabel(new ImageIcon(getClass().getResource("/Backgrounds/DragoFon.png")));
+        HeroLabel3 = new JLabel(new ImageIcon(getClass().getResource("/Backgrounds/LizardFon.png")));
+
+        HeroLabel1.addMouseListener(HeroListener);
+        HeroLabel2.addMouseListener(HeroListener);
+        HeroLabel3.addMouseListener(HeroListener);
+        button.addMouseListener(HeroListener);
+
+        p1.add(HeroLabel1);
+        p1.add(HeroLabel2);
+        p1.add(HeroLabel3);
+
+
+        add(p1, BorderLayout.NORTH);
+        add(button);
+
+//      setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("icon.png")));//missed
+        setResizable(false);
+        setLocationRelativeTo(null);
+        setVisible(true);
+
+    }
+
+    public static int getDoz() {
+        return doz;
+    }
+
     void CheckHero() {
         if (Hero1Select) {
             HeroLabel1.setIcon(new ImageIcon(getClass().getResource("/Backgrounds/AsianFon.png")));
@@ -109,10 +111,6 @@ public class MyPanel extends JFrame {
             HeroLabel3.setIcon(new ImageIcon(getClass().getResource("/Backgrounds/LizardFon.png")));
             Hero3Select = false;
         }
-    }
-
-    public static int getDoz() {
-        return doz;
     }
 
 }

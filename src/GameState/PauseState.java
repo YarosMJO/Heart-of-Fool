@@ -7,22 +7,21 @@ import java.awt.event.KeyEvent;
 
 public class PauseState extends GameState {
 
+    private final String[] options = {
+            "Restart",
+            "Menu",
+            "Quit"
+    };
+    public int k = 0;
     private Background bg;
     private int currentChoice = 0;
-    private final String[] options = {
-        "Restart",
-        "Menu",
-        "Quit"
-    };
-   
     private Font font;
     private Font titleFont;
     private Color titleColor;
-    public int k=0;
 
     public PauseState(GameStateManager gsm) {
         this.gsm = gsm;
- 
+
         try {
 
             bg = new Background("/Backgrounds/waterfall.gif", 1);
@@ -47,7 +46,7 @@ public class PauseState extends GameState {
     @Override
     public void update() {
         bg.update();
-       
+
     }
 
     @Override
@@ -80,9 +79,9 @@ public class PauseState extends GameState {
                 break;
             case 1:
                 gsm.setPaused(false);
-                
+
                 gsm.setState(GameStateManager.MENUSTATE);
-                
+
                 break;
             case 2:
                 System.exit(0);
@@ -94,10 +93,9 @@ public class PauseState extends GameState {
     public void keyPressed(int k) {
         if (k == KeyEvent.VK_ESCAPE) {
             gsm.setPaused(false);
-            canResume=true;
-            
-             
-           
+            canResume = true;
+
+
         }
         if (k == KeyEvent.VK_ENTER) {
             select();
