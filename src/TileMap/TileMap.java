@@ -1,12 +1,13 @@
 package TileMap;
 
 import heartoffool.GamePanel;
-import java.awt.Graphics2D;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import javax.imageio.ImageIO;
 
 public class TileMap {
 

@@ -2,10 +2,11 @@ package Entity;
 
 import Audio.AudioPlayer;
 import TileMap.TileMap;
-import java.awt.Graphics2D;
-import java.util.ArrayList;
+
 import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Drago extends MapObject implements Hero {

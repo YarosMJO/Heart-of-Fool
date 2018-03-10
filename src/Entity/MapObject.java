@@ -1,10 +1,10 @@
 package Entity;
 
-import heartoffool.GamePanel;
-import TileMap.TileMap;
 import TileMap.Tile;
+import TileMap.TileMap;
+import heartoffool.GamePanel;
 
-import java.awt.Rectangle;
+import java.awt.*;
 
 public abstract class MapObject {
 	

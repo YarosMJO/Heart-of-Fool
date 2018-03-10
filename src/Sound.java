@@ -1,10 +1,10 @@
+import javazoom.jlgui.basicplayer.BasicController;
+import javazoom.jlgui.basicplayer.BasicPlayer;
+import javazoom.jlgui.basicplayer.BasicPlayerException;
 
 import java.io.File;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javazoom.jlgui.basicplayer.BasicController;
-import javazoom.jlgui.basicplayer.BasicPlayer;
-import javazoom.jlgui.basicplayer.BasicPlayerException;
 
 public class Sound {
 BasicController playerController;

@@ -1,6 +1,7 @@
 package GameState;
 
 import heartoffool.GamePanel;
+
 import javax.sound.sampled.Clip;
 
 public class GameStateManager {

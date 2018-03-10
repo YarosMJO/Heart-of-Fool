@@ -1,18 +1,18 @@
 package GameState;
 
 import Audio.AudioPlayer;
-import heartoffool.GamePanel;
-import TileMap.*;
 import Entity.*;
-import Entity.Enemies.*;
-import java.awt.Color;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.Rectangle;
+import Entity.Enemies.Evil;
+import Entity.Enemies.Title;
+import TileMap.Background;
+import TileMap.TileMap;
+import heartoffool.GamePanel;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
-import javax.imageio.ImageIO;
 
 public class Level2State extends GameState {
 

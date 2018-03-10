@@ -1,14 +1,12 @@
 package heartoffool;
 
 import GameState.GameStateManager;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Toolkit;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
-import javax.swing.JPanel;
 
 @SuppressWarnings("serial")
 public class GamePanel extends JPanel

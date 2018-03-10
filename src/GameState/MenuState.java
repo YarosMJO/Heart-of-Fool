@@ -1,12 +1,13 @@
 package GameState;
 
 import TileMap.Background;
+
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import javax.swing.JOptionPane;
 
 public class MenuState extends GameState {
 
