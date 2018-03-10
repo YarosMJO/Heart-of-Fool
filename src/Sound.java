@@ -10,8 +10,8 @@ public class Sound {
 BasicController playerController;
     public Sound() {
         BasicPlayer myMusicPlayer=new BasicPlayer();
- playerController =(BasicController)myMusicPlayer;
-String filePath="C:\\Users\\1\\Downloads\\Vehicle - OGA - Siberian Intro.wav";
+ playerController = myMusicPlayer;
+String filePath="/Music/Siberian.wav";
 File file=new File(filePath);
 try
 { 

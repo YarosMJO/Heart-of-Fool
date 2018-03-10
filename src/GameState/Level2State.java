@@ -82,7 +82,7 @@ public class Level2State extends GameState {
         explosions = new ArrayList<Explosion>();
         hud = new HUD(this.hero);
         if (bgMusic == null) {
-            bgMusic = new AudioPlayer("/Music/Vehicle - OGA - Siberian Intro.wav");
+            bgMusic = new AudioPlayer("/Music/Siberian.wav");
             bgMusic.play();
         }
         try {

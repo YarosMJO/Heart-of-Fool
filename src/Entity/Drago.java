@@ -74,7 +74,7 @@ public class Drago extends MapObject implements Hero {
 
         fireCost = 200;
         fireBallDamage = 5;
-        fireBalls = new ArrayList<FireBall>();
+        fireBalls = new ArrayList<>();
 
         scratchDamage = 8;
         scratchRange = 40;
@@ -88,7 +88,7 @@ public class Drago extends MapObject implements Hero {
                     )
             );
 
-            sprites = new ArrayList<BufferedImage[]>();
+            sprites = new ArrayList<>();
             for (int i = 0; i < 7; i++) {
 
                 BufferedImage[] bi
@@ -127,7 +127,7 @@ public class Drago extends MapObject implements Hero {
         currentAction = IDLE;
         animation.setFrames(sprites.get(IDLE));
         animation.setDelay(400);
-        sfx = new HashMap<String, AudioPlayer>();
+        sfx = new HashMap<>();
         sfx.put("jump", new AudioPlayer("/SFX/jump.mp3"));
         sfx.put("scratch", new AudioPlayer("/SFX/scratch.mp3"));
     }
@@ -180,13 +180,11 @@ public class Drago extends MapObject implements Hero {
     public void checkAttack(ArrayList<Enemy> enemies) {
 
         // loop through enemies
-        for (int i = 0; i < enemies.size(); i++) {
-
-            Enemy e = enemies.get(i);
+        for (Enemy e : enemies) {
 
             // scratch attack
             if (scratching) {
-               
+
                 if (facingRight) {
                     if (e.getx() > x
                             && e.getx() < x + scratchRange
@@ -205,10 +203,10 @@ public class Drago extends MapObject implements Hero {
             }
 
             // fireballs
-            for (int j = 0; j < fireBalls.size(); j++) {
-                if (fireBalls.get(j).intersects(e)) {
+            for (FireBall fireBall : fireBalls) {
+                if (fireBall.intersects(e)) {
                     e.hit(fireBallDamage);
-                    fireBalls.get(j).setHit();
+                    fireBall.setHit();
                     break;
                 }
             }
@@ -428,8 +426,8 @@ public class Drago extends MapObject implements Hero {
         setMapPosition();
 
         // draw fireballs
-        for (int i = 0; i < fireBalls.size(); i++) {
-            fireBalls.get(i).draw(g);
+        for (FireBall fireBall : fireBalls) {
+            fireBall.draw(g);
         }
 
         // draw player
