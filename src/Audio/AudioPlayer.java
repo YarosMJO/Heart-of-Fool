@@ -1,9 +1,8 @@
 package Audio;
 
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
+import javax.sound.sampled.*;
+import java.io.*;
+import java.net.URL;
 
 public class AudioPlayer {
     private Clip clip;
@@ -12,8 +11,11 @@ public class AudioPlayer {
     public AudioPlayer(String s) {
         try {
 
-            AudioInputStream ais = AudioSystem.getAudioInputStream(getClass().getResourceAsStream(s));
-            AudioFormat baseFormat = ais.getFormat();
+            InputStream audioSrc = getClass().getResourceAsStream(s);
+            InputStream bufferedIn = new BufferedInputStream(audioSrc);
+            AudioInputStream audioStream = AudioSystem.getAudioInputStream(bufferedIn);
+
+            AudioFormat baseFormat = audioStream.getFormat();
             AudioFormat decodeFormat = new AudioFormat(
                     AudioFormat.Encoding.PCM_SIGNED,
                     baseFormat.getSampleRate(),
@@ -21,19 +23,29 @@ public class AudioPlayer {
                     baseFormat.getChannels(),
                     baseFormat.getChannels() * 2,
                     baseFormat.getSampleRate(),
-                    false
+                    true
             );
+
             AudioInputStream dais = AudioSystem.getAudioInputStream(
                     decodeFormat
-                    , ais);
+                    , audioStream);
             clip = AudioSystem.getClip();
             clip.open(dais);
-        } catch (Exception e) {
+
+        } catch (LineUnavailableException e) {
+            System.out.println("1");
+            e.printStackTrace();
+
+        } catch (IOException e) {
+            System.out.println("2");
+            e.printStackTrace();
+        } catch (UnsupportedAudioFileException e) {
+            System.out.println("3");
             e.printStackTrace();
         }
     }
 
-    public void play() {
+        public void play() {
         if (clip == null) return;
         stop();
         clip.setFramePosition(0);

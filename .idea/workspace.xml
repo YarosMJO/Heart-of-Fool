@@ -6,296 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e28845a-b2d2-4bc8-98b2-8dfa465af32b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Heart_of_Fool_jar.xml" />
+    <list default="true" id="8ec7916d-5b9a-4799-9b80-764b84bc5c27" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/Heart-of-Fool.iml" afterPath="$PROJECT_DIR$/.idea/Heart-of-Fool.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Heart_of_Fool_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Heart_of_Fool_jar.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/.netbeans_automatic_build" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/.netbeans_update_resources" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Audio/AudioPlayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/AsianFon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/AsianFonRed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/DragoFon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/DragoFonRed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/LizardFon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/LizardFonRed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/Map_0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/NMap.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/cave.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/chest.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/grass.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/grassbg1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/menubg.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/pink.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/sea.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Backgrounds/waterfall.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Animation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/AsianHeroMaker$PlayerHeroMaker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/AsianPlayer$AsianHeroMaker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/AsianPlayer$HeroMaker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/AsianPlayer$Player.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/AsianPlayer$PlayerHeroMaker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Drago.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Enemies/DarkEvil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Enemies/Evil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Enemies/Over.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Enemies/Slugger.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Enemies/Title.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Enemy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Explosion.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/FireBall.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/HUD.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Hero.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/IceBall.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Longway.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/MapObject.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Entity/Pricker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/AsianHeroMaker$PlayerHeroMaker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/AsianPlayer$AsianHeroMaker$PlayerHeroMaker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/AsianPlayer$AsianHeroMaker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/GameState.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/GameStateManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/Level1State.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/Level2State.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/MAP$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/MAP$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/MAP.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/Main$User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/MenuState.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/MyPanel$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/MyPanel$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/MyPanel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/PauseState.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/GameState/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/HUD/HageonTemple.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/HUD/hud.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/HUD/hud_Drago.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/HUD/hud_Longway.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/HUD/hud_Pricker.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Maps/lal.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Maps/lal0.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Maps/level1-1.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Music/Vehicle - OGA - Siberian Intro.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Music/level1-1.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/SFX/jump.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/SFX/scratch.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sound.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Enemies/arachnik.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Enemies/darkevil.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Enemies/evil.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Enemies/explosion.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Enemies/slugger.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Player/Long_0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Player/Pricker_0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Player/fireball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Player/iceball.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Player/iceball.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sprites/Player/playersprites.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/TileMap/Background.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/TileMap/Tile.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/TileMap/TileMap.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Tilesets/dark1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Tilesets/grasss.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Tilesets/grasstileset.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Tilesets/testtileset.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/heartoffool/GamePanel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/heartoffool/HeartOfFool$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/heartoffool/HeartOfFool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Animationx.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack- Spritesheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_000.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_001.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_002.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_003.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_004.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_005.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_006.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_007.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_008.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_009.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_010.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_011.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_012.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_013.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_014.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_015.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_016.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_017.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_018.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_019.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_020.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_021.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_022.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Attack/Attack_023.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die - Spritesheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_000.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_001.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_002.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_003.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_004.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_005.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_006.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_007.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_008.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_009.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_010.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_011.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_012.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_013.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_014.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_015.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_016.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_017.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_018.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_019.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_020.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_021.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_022.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_023.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Die/Die_024.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/0c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/10c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/11c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/1c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/2c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/3c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/4c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/5c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/6c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/7c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/8c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/9c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle - Spritesheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_000.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_001.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_002.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_003.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_004.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_005.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_006.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_007.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_008.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_009.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_010.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Idle/Idle_011.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block - Spritesheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_000.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_001.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_002.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_003.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_004.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_005.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_006.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_007.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_008.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_009.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_010.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_011.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_012.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_013.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_014.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_015.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_016.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_017.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_018.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_019.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_020.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_021.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_022.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Shield Block/Shield Block_023.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/0w.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/1w.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/2w.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/3w.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/4w.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/5w.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/6w.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk - Spritesheet - копия.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk - Spritesheet - копия.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk - Spritesheet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_000.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_001.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_002.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_003.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_004.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_005.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_006.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_007.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_008.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_009.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_010.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_011.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_012.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_013.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_014.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Animations/Walk/Walk_015.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Body Parts/Barbaros - Sprite Sheet All.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Body Parts/Barbaros - Sprite Sheet All.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Barbaros Slim Version/Read Me.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/004.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/005cqc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/006.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/007.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/008zcz.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/015iui.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/033.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/049.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/050.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/221.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/222.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/F45n_lHbgQQ.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/Pr_stor_kushch.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/oTJArZ60dV4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/Blocks/tileset dark doar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/bg1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/hres/menubg.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/manifest.mf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/config.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Heart-of-Fool.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/Audio/AudioPlayer.java" afterPath="$PROJECT_DIR$/src/Audio/AudioPlayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Animation.java" afterPath="$PROJECT_DIR$/src/Entity/Animation.java" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Drago.java" afterPath="$PROJECT_DIR$/src/Entity/Drago.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Enemies/DarkEvil.java" afterPath="$PROJECT_DIR$/src/Entity/Enemies/DarkEvil.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Enemies/Evil.java" afterPath="$PROJECT_DIR$/src/Entity/Enemies/Evil.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Enemies/Over.java" afterPath="$PROJECT_DIR$/src/Entity/Enemies/Over.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Enemies/Slugger.java" afterPath="$PROJECT_DIR$/src/Entity/Enemies/Slugger.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Enemies/Title.java" afterPath="$PROJECT_DIR$/src/Entity/Enemies/Title.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Enemy.java" afterPath="$PROJECT_DIR$/src/Entity/Enemy.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Explosion.java" afterPath="$PROJECT_DIR$/src/Entity/Explosion.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/FireBall.java" afterPath="$PROJECT_DIR$/src/Entity/FireBall.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/HUD.java" afterPath="$PROJECT_DIR$/src/Entity/HUD.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Hero.java" afterPath="$PROJECT_DIR$/src/Entity/Hero.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/IceBall.java" afterPath="$PROJECT_DIR$/src/Entity/IceBall.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Longway.java" afterPath="$PROJECT_DIR$/src/Entity/Longway.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/MapObject.java" afterPath="$PROJECT_DIR$/src/Entity/MapObject.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Pricker.java" afterPath="$PROJECT_DIR$/src/Entity/Pricker.java" />
-      <change beforePath="$PROJECT_DIR$/src/GameState/GameState.java" afterPath="$PROJECT_DIR$/src/GameState/GameState.java" />
-      <change beforePath="$PROJECT_DIR$/src/GameState/GameStateManager.java" afterPath="$PROJECT_DIR$/src/GameState/GameStateManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/GameState/Level1State.java" afterPath="$PROJECT_DIR$/src/GameState/Level1State.java" />
-      <change beforePath="$PROJECT_DIR$/src/GameState/Level2State.java" afterPath="$PROJECT_DIR$/src/GameState/Level2State.java" />
-      <change beforePath="$PROJECT_DIR$/src/GameState/MAP.java" afterPath="$PROJECT_DIR$/src/GameState/MAP.java" />
-      <change beforePath="$PROJECT_DIR$/src/GameState/MenuState.java" afterPath="$PROJECT_DIR$/src/GameState/MenuState.java" />
-      <change beforePath="$PROJECT_DIR$/src/GameState/MyPanel.java" afterPath="$PROJECT_DIR$/src/GameState/MyPanel.java" />
-      <change beforePath="$PROJECT_DIR$/src/GameState/PauseState.java" afterPath="$PROJECT_DIR$/src/GameState/PauseState.java" />
-      <change beforePath="$PROJECT_DIR$/src/GameState/User.java" afterPath="$PROJECT_DIR$/src/GameState/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/SFX/jump.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/SFX/scratch.mp3" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/Sound.java" afterPath="$PROJECT_DIR$/src/Sound.java" />
-      <change beforePath="$PROJECT_DIR$/src/TileMap/Background.java" afterPath="$PROJECT_DIR$/src/TileMap/Background.java" />
-      <change beforePath="$PROJECT_DIR$/src/TileMap/Tile.java" afterPath="$PROJECT_DIR$/src/TileMap/Tile.java" />
-      <change beforePath="$PROJECT_DIR$/src/TileMap/TileMap.java" afterPath="$PROJECT_DIR$/src/TileMap/TileMap.java" />
-      <change beforePath="$PROJECT_DIR$/src/heartoffool/GamePanel.java" afterPath="$PROJECT_DIR$/src/heartoffool/GamePanel.java" />
-      <change beforePath="$PROJECT_DIR$/src/heartoffool/HeartOfFool.java" afterPath="$PROJECT_DIR$/src/heartoffool/HeartOfFool.java" />
     </list>
-    <ignored path="D:/HeartOfFool/compiled/" />
+    <ignored path="$PROJECT_DIR$/../compiled/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -304,18 +29,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="HeartOfFool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/heartoffool/HeartOfFool.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
+      <file leaf-file-name="AudioPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Audio/AudioPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="1400">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="e#1813#1814#0" expanded="true" />
+                <element signature="e#1862#1863#0" expanded="true" />
+                <element signature="e#1968#1969#0" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
+                <element signature="e#2054#2055#0" expanded="true" />
+                <element signature="e#2106#2107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drago.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Drago.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="120" column="32" lean-forward="false" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level1State.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameState/Level1State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="355" column="24" lean-forward="false" selection-start-line="355" selection-start-column="20" selection-end-line="355" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sound.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sound.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jump</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -328,11 +95,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Sound.java" />
-        <option value="$PROJECT_DIR$/src/GameState/Level1State.java" />
-        <option value="$PROJECT_DIR$/src/GameState/Level2State.java" />
+        <option value="$USER_HOME$/Downloads/Dragon Tale Tutorial P04/Dragon Tale Tutorial P04/src/Main/Game.java" />
         <option value="$PROJECT_DIR$/src/heartoffool/HeartOfFool.java" />
+        <option value="$PROJECT_DIR$/src/Sound.java" />
         <option value="$PROJECT_DIR$/src/GameState/GameStateManager.java" />
+        <option value="$PROJECT_DIR$/src/GameState/Level2State.java" />
+        <option value="$PROJECT_DIR$/src/Audio/AudioPlayer.java" />
+        <option value="$PROJECT_DIR$/src/Entity/Drago.java" />
       </list>
     </option>
   </component>
@@ -357,6 +126,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,23 +135,43 @@
               <item name="Heart-of-Fool" type="b2602c69:ProjectViewProjectNode" />
               <item name="Heart-of-Fool" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Heart-of-Fool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Heart-of-Fool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Heart-of-Fool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Heart-of-Fool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Audio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Heart-of-Fool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Heart-of-Fool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Heart-of-Fool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Heart-of-Fool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SFX" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../compiled" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -509,45 +300,44 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e28845a-b2d2-4bc8-98b2-8dfa465af32b" name="Default" comment="" />
-      <created>1520703179656</created>
+      <changelist id="8ec7916d-5b9a-4799-9b80-764b84bc5c27" name="Default" comment="" />
+      <created>1520759989132</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1520703179656</updated>
+      <updated>1520759989132</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948294" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1430143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948294" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948294" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948294" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948294" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948294" sideWeight="0.50104165" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948294" sideWeight="0.49895832" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -558,79 +348,184 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/built-jar.properties">
+    <entry file="file://$PROJECT_DIR$/src/Audio/AudioPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heartoffool/HeartOfFool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameState/Level2State.java">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Drago.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="390" column="26" lean-forward="false" selection-start-line="390" selection-start-column="26" selection-end-line="390" selection-end-column="26" />
+        <state relative-caret-position="4720">
+          <caret line="125" column="32" lean-forward="false" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
           <folding>
-            <element signature="e#12273#12274#0" expanded="false" />
-            <element signature="e#12327#12328#0" expanded="false" />
-            <element signature="e#12365#12366#0" expanded="false" />
-            <element signature="e#12397#12398#0" expanded="false" />
-            <element signature="e#12429#12430#0" expanded="false" />
-            <element signature="e#12483#12484#0" expanded="false" />
-            <element signature="e#12516#12517#0" expanded="false" />
-            <element signature="e#12550#12551#0" expanded="false" />
-            <element signature="e#12583#12584#0" expanded="false" />
-            <element signature="e#12617#12618#0" expanded="false" />
+            <element signature="e#3537#3538#0" expanded="false" />
+            <element signature="e#3566#3567#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
+            <element signature="e#3657#3658#0" expanded="false" />
+            <element signature="e#3704#3705#0" expanded="false" />
+            <element signature="e#3736#3737#0" expanded="false" />
+            <element signature="e#3778#3779#0" expanded="false" />
+            <element signature="e#3805#3806#0" expanded="false" />
+            <element signature="e#3850#3851#0" expanded="false" />
+            <element signature="e#3880#3881#0" expanded="false" />
+            <element signature="e#3911#3912#0" expanded="false" />
+            <element signature="e#3938#3939#0" expanded="false" />
+            <element signature="e#3993#3994#0" expanded="false" />
+            <element signature="e#4025#4026#0" expanded="false" />
+            <element signature="e#4070#4071#0" expanded="false" />
+            <element signature="e#4099#4100#0" expanded="false" />
+            <element signature="e#4148#4149#0" expanded="false" />
+            <element signature="e#4181#4182#0" expanded="false" />
+            <element signature="e#4236#4237#0" expanded="false" />
+            <element signature="e#4263#4264#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameState/Level1State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="326" column="12" lean-forward="false" selection-start-line="326" selection-start-column="12" selection-end-line="326" selection-end-column="12" />
+        <state relative-caret-position="160">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Audio/AudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="22" column="87" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="22" selection-end-column="87" />
           <folding>
-            <element signature="e#11791#11792#0" expanded="false" />
-            <element signature="e#11845#11846#0" expanded="false" />
-            <element signature="e#11883#11884#0" expanded="false" />
-            <element signature="e#11915#11916#0" expanded="false" />
-            <element signature="e#11947#11948#0" expanded="false" />
-            <element signature="e#12001#12002#0" expanded="false" />
-            <element signature="e#12034#12035#0" expanded="false" />
-            <element signature="e#12068#12069#0" expanded="false" />
-            <element signature="e#12101#12102#0" expanded="false" />
-            <element signature="e#12135#12136#0" expanded="false" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Enemies/Evil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heartoffool/GamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Dragon Tale Tutorial P04/Dragon Tale Tutorial P04/src/Main/Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/heartoffool/HeartOfFool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameState/GameStateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameState/Level2State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="120" column="30" lean-forward="false" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameState/Level1State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="355" column="24" lean-forward="false" selection-start-line="355" selection-start-column="20" selection-end-line="355" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sound.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slugger.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameState/GameStateManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state relative-caret-position="520">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/heartoffool/HeartOfFool.java">
+    <entry file="file://$PROJECT_DIR$/src/Audio/AudioPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="1400">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Longway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Pricker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="370" column="52" lean-forward="false" selection-start-line="370" selection-start-column="48" selection-end-line="370" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Drago.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="120" column="32" lean-forward="false" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -677,7 +572,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9.0</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

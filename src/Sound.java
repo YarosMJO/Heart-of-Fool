@@ -19,6 +19,7 @@ public class Sound {
             playerController.play();
 
         } catch (Exception ex) {
+           ex.printStackTrace();
         }
 
     }

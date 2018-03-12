@@ -6,6 +6,9 @@ import TileMap.TileMap;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -123,8 +126,9 @@ public class Drago extends MapObject implements Hero {
         animation.setFrames(sprites.get(IDLE));
         animation.setDelay(400);
         sfx = new HashMap<>();
-        sfx.put("jump", new AudioPlayer("/SFX/jump.mp3"));
-        sfx.put("scratch", new AudioPlayer("/SFX/scratch.mp3"));
+
+        sfx.put("jump", new AudioPlayer("/SFX/jump.wav"));
+        sfx.put("scratch", new AudioPlayer("/SFX/scratch.wav"));
     }
 
     @Override
@@ -274,7 +278,7 @@ public class Drago extends MapObject implements Hero {
 
         // jumping
         if (jumping && !falling) {
-            // sfx.get("jump").play();
+            sfx.get("jump").play();
             dy = jumpStart;
             falling = true;
         }

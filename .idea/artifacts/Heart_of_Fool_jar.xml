@@ -1,17 +1,17 @@
 <component name="ArtifactManager">
   <artifact type="jar" build-on-make="true" name="Heart-of-Fool:jar">
-    <output-path>$PROJECT_DIR$/../compiled</output-path>
+    <output-path>$PROJECT_DIR$/../compiled/artifacts/Heart_of_Fool_jar</output-path>
     <root id="archive" name="Heart-of-Fool.jar">
       <element id="module-output" name="Heart-of-Fool" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/basicplayer3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/jspeex0.9.7.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/Libs/jl1.0.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/Libs/vorbisspi1.0.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/tritonus_share_1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/jogg-0.0.7.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/jspeex0.9.7.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/mp3spi1.9.5.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/Libs/jorbis-0.0.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/mp3spi1.9.5.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/Libs/commons-logging-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/basicplayer3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/jogg-0.0.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/tritonus_share_1.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
