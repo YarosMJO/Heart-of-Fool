@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ec7916d-5b9a-4799-9b80-764b84bc5c27" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/Heart-of-Fool.iml" afterPath="$PROJECT_DIR$/.idea/Heart-of-Fool.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Heart_of_Fool_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Heart_of_Fool_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Heart-of-Fool.jar" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Heart-of-Fool.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Audio/AudioPlayer.java" afterPath="$PROJECT_DIR$/src/Audio/AudioPlayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Drago.java" afterPath="$PROJECT_DIR$/src/Entity/Drago.java" />
-      <change beforePath="$PROJECT_DIR$/src/SFX/jump.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/SFX/scratch.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Sound.java" afterPath="$PROJECT_DIR$/src/Sound.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../compiled/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +40,8 @@
       <file leaf-file-name="Drago.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Entity/Drago.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="120" column="32" lean-forward="false" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+            <state relative-caret-position="721">
+              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -524,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Drago.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="120" column="32" lean-forward="false" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+        <state relative-caret-position="721">
+          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding />
         </state>
       </provider>
